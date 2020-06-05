@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canciones [
+<!ELEMENT canciones (cancion)*>
+<!ELEMENT cancion (nombre+ , url+)>
+<!ATTLIST cancion numero ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+]>
+<canciones>
+<cancion numero="1">
+	<nombre>Smooth criminal</nombre>
+	<url>https://www.youtube.com/embed/pOJT439TPic</url>
+</cancion>
+<cancion numero="2"><nombre>Beat it</nombre><url>https://www.youtube.com/embed/HSNKIdy5HJQ</url></cancion>
+<cancion numero="3"><nombre>We are the champions</nombre><url>https://www.youtube.com/embed/1T4sLkkg1Co</url></cancion>
+<cancion numero="4"><nombre>We will rock you</nombre><url>https://www.youtube.com/embed/Wv0KwOEYKU4</url></cancion>
+<cancion numero="5"><nombre>Bohemian rhapsody</nombre><url>https://www.youtube.com/embed/B4BorKfhjYU</url></cancion>
+<cancion numero="6"><nombre>Gangstas paradise</nombre><url>https://www.youtube.com/embed/fcsvE1zv1ek</url></cancion>
+<cancion numero="7"><nombre>Lifelight</nombre><url>https://www.youtube.com/embed/UFNnoqPDqpM</url></cancion>
+<cancion numero="8"><nombre>The final countdown</nombre><url>https://www.youtube.com/embed/Y5xaU-OS5Ko</url></cancion>
+<cancion numero="9"><nombre>Lovely</nombre><url>https://www.youtube.com/embed/9kCUhJ9M97Q</url></cancion>
+<cancion numero="10"><nombre>Hotel california</nombre><url>https://www.youtube.com/embed/EqPtz5qN7HM</url></cancion>
+<cancion numero="11"><nombre>dgdfgf</nombre><url>https://www.youtube.com/embed/IInvLzQ_BMU</url></cancion><cancion numero="12"><nombre>fhfhfdf</nombre><url>https://www.youtube.com/embed/IInvLzQ_BMU</url></cancion>
+</canciones>

@@ -1,0 +1,113 @@
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.wer{background-color: green;}
+.que{
+
+font-size: 20px;
+background-color: green;
+color:white;
+height: 50px;
+
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#contenedor {
+
+  width: 500px;
+  height: 500px;
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  margin-top: -250px;   /* height/2 = 500px / 2 */
+  margin-left: -250px;  /* width/2 = 500px / 2 */
+
+}
+
+
+
+.formulario{
+  border-radius: 10px;
+	background-color:#CC0033;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: 500px;
+	font-size: 36px;
+	height: 500px;
+}
+
+.formulario2{
+	background-color:#CC0033;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	font-size: 20px;
+}
+
+.boton1{
+  border-radius: 10px;
+ 	font-size:30px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#00FF00;
+    border:0px;
+    width:300px;
+    height:100px;
+}
+
+.boton2{
+ 	font-size:30px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#FF0000;
+    border:0px;
+    width:300px;
+    height:100px;
+}
+
+.boton3{
+ 	font-size:30px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    background: #000000;
+    border:0px;
+    width:300px;
+    height:100px;
+}
+
+.botonConf{
+  border-radius: 10px;
+	font-size:30px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000000;
+	background:#CCCCFF;
+	border:1px solid #ccc;
+	width:300px;
+	height:100px;
+	text-align: center;
+}
+.botonConf:hover{
+ background-color: yellow;
+}
+
+
+.select{
+   font-size:30px;
+   width: 60px;
+   height: 50px;
+   overflow: hidden;
+   background: #CCCCFF;
+   border: 1px solid #ccc;
+}
